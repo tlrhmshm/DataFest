@@ -18,7 +18,7 @@ The first exploratory analysis looked simply at at how bookings changed with tem
 
 ![Bookings & Temperature](https://cloud.githubusercontent.com/assets/25534898/25184988/0408761c-24ea-11e7-8475-cf49088040d3.png)
 
-This shouldn't be taken at face value, as there could be many confounding variables that make the relationship between the temperature and number of bookings less than causal. To isolate the effects between temperature and bookings, we tested the relationship using a logistic regression framework. Using a step-wise logistic regression, we looked at if temperature is still a significant predictor of bookings after controlling for city fixed effects, season fixed effects, and user search characteristics. We find that it *is* significant at the 99% level, and that for every increase in one degree farenheit it increases the probability of booking by ~0.03%. 
+This shouldn't be taken at face value, as there could be many confounding variables that make the relationship between the temperature and number of bookings less than causal. To isolate the effects between temperature and bookings, we tested the relationship using a logistic regression framework. Using a step-wise logistic regression, we looked at if temperature is still a significant predictor of bookings after controlling for city fixed effects, season fixed effects, and user search characteristics. We find that it *is* significant at the 99% level, and that for every decrease in one degree farenheit it increases the probability of booking by ~0.03%. 
 
 ![Bookings & Temp Regression](https://cloud.githubusercontent.com/assets/25534898/25184987/04086046-24ea-11e7-801e-5dcc3f7328de.png)
 
