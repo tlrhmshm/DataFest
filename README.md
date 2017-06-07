@@ -1,5 +1,7 @@
 # ASA DataFest 2017
 
+By Tyler Hamashima, Jordan Gotbaum, Clancy Green, and Hassan Saad
+
 ## Introduction
 We were given a dataset (n = 11 million) of customer search information from 2015 on Expedia for booking hotels. Main variables in the dataset were the user's unique ID, day of search, city from where the search was performed, desired checkin/checkout day, the number of clicks in the user's session, and whether or not they booked a hotel during that session. From this we were to come up with an analysis, in two days, that could provide useful insight to the company at hand.
 
